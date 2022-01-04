@@ -14,6 +14,8 @@
 		1D0267DD278436B7003AB64F /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0267DC278436B7003AB64F /* Photo.swift */; };
 		1D0267DF278436FE003AB64F /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0267DE278436FE003AB64F /* Webservice.swift */; };
 		1D0267E1278437CC003AB64F /* PhotoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0267E0278437CC003AB64F /* PhotoListViewModel.swift */; };
+		1D0267E327843D0A003AB64F /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0267E227843D0A003AB64F /* ImageLoader.swift */; };
+		1D0267E527844023003AB64F /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0267E427844023003AB64F /* URLImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		1D0267DC278436B7003AB64F /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		1D0267DE278436FE003AB64F /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		1D0267E0278437CC003AB64F /* PhotoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewModel.swift; sourceTree = "<group>"; };
+		1D0267E227843D0A003AB64F /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		1D0267E427844023003AB64F /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				1D0267DC278436B7003AB64F /* Photo.swift */,
 				1D0267DE278436FE003AB64F /* Webservice.swift */,
 				1D0267E0278437CC003AB64F /* PhotoListViewModel.swift */,
+				1D0267E227843D0A003AB64F /* ImageLoader.swift */,
+				1D0267E427844023003AB64F /* URLImage.swift */,
 			);
 			path = CachingImagesInSwiftUI;
 			sourceTree = "<group>";
@@ -146,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D0267E527844023003AB64F /* URLImage.swift in Sources */,
 				1D0267DD278436B7003AB64F /* Photo.swift in Sources */,
 				1D0267D127843680003AB64F /* ContentView.swift in Sources */,
+				1D0267E327843D0A003AB64F /* ImageLoader.swift in Sources */,
 				1D0267DF278436FE003AB64F /* Webservice.swift in Sources */,
 				1D0267E1278437CC003AB64F /* PhotoListViewModel.swift in Sources */,
 				1D0267CF27843680003AB64F /* CachingImagesInSwiftUIApp.swift in Sources */,

@@ -15,12 +15,13 @@ struct ContentView: View {
         NavigationView {
             List(photoListVM.photos) { photo in
                 HStack {
-                    AsyncImage(url: photo.thumbnailUrl)
+                    //AsyncImage(url: photo.thumbnailUrl)
+                    URLImage(url: photo.thumbnailUrl)
                     Text(photo.title)
                 }
-                .task {
-                    await photoListVM.populatePhotos()
-                }
+            }
+            .task {
+                await photoListVM.populatePhotos()
             }
             .navigationTitle("Photos")
         }
